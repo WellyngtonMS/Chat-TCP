@@ -3,3 +3,5 @@ Implementação de duas aplicações em C que utiliza threads e sockets e que pe
 
 A execução do programa cliente solicita ao usuário um apelido (que servirá de prefixo para suas mensagens), o endereço IP do servidor ao qual ele se conectará e a porta utilizada. Durante sua execução o usuário poderá enviar mensagens e visualizar as mensagens enviadas pelos outros usuários. Caso o usuário digite a palavra "SAIR" o programa cliente é finalizado.
 Um monitor registra em um arquivo de texto todos os eventos do servidor.
+
+Para compilar e rodar execute primeiro o servidor, e em outra (s) janela (s) compile e execute quantos clientes quiser.
