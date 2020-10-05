@@ -5,3 +5,15 @@ A execução do programa cliente solicita ao usuário um apelido (que servirá d
 Um monitor registra em um arquivo de texto todos os eventos do servidor.
 
 Para compilar e rodar execute primeiro o servidor, e em outra (s) janela (s) compile e execute quantos clientes quiser.
+
+#### Instruções
+Compilação
+````
+$ gcc -pthread server.c -lpthread -o server
+$ ./server
+````
+Execução
+````
+$ gcc -pthread cliente.c -lpthread -o cliente
+$ ./cliente
+````
