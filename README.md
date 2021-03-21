@@ -7,12 +7,13 @@ Um monitor registra em um arquivo de texto todos os eventos do servidor.
 Para compilar e rodar execute primeiro o servidor, e em outra (s) janela (s) compile e execute quantos clientes quiser.
 
 #### Instruções
-Compilação
+Compilação e Execução
+- Servidor
 ````
 $ gcc -pthread server.c -lpthread -o server
 $ ./server
 ````
-Execução
+- Cliente
 ````
 $ gcc -pthread cliente.c -lpthread -o cliente
 $ ./cliente
